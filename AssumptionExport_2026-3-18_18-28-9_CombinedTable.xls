@@ -1,0 +1,84 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Assumption Export</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><meta http-equiv="content-type" content="text/plain; charset=UTF-8"/></head><body><table>
+                            <thead style="background-color: rgba(0, 0, 0, 0);">
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <th style="background-color: rgba(0, 0, 0, 0);"></th>
+                                    <th style="background-color: rgba(0, 0, 0, 0);"></th>
+                                    <th colspan="1" class="head-color1" style="background-color: rgb(251, 226, 213);"> Year 1 Assumptions </th>
+                                    <th colspan="2" class="head-color2" style="background-color: rgb(242, 206, 239);"> Going from Year 1 to Year 2 </th>
+                                    <th colspan="2" class="head-color3" style="background-color: rgb(202, 237, 251);"> Going from Year 2 to Year 3 </th>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <th style="background-color: rgba(0, 0, 0, 0);">TYPE</th>
+                                    <th style="background-color: rgba(0, 0, 0, 0);">DESSCRIPTION</th>
+                                    <th class="head-color1" style="background-color: rgb(251, 226, 213);">Financials, Absolute</th>
+                                    <th class="head-color2" style="background-color: rgb(242, 206, 239);">Business Assumptions</th>
+                                    <th class="head-color2" style="background-color: rgb(242, 206, 239);">Financial Decisions, % change</th>
+                                    <th class="head-color3" style="background-color: rgb(202, 237, 251);">Business Assumptions</th>
+                                    <th class="head-color3" style="background-color: rgb(202, 237, 251);">Financial Decisions, % change</th>
+                                </tr>
+                            </thead>
+                            <tbody style="background-color: rgba(0, 0, 0, 0);">
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="color1" style="background-color: rgb(128, 128, 128);">SETUP COSTS</td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">Infrastructure (e.g., website/  computers, legal)</td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">100000</td>
+                                    <td rowspan="8" style="width: 15%; background-color: rgba(0, 0, 0, 0);">
+                                        1. Open another shop in another mall in the same city.
+                                    2. Sales will double, as will monthly expenses.
+                                    3. Cost price per shirt will drop by 10% due to volume purchases.
+                                    </td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">0</td>
+                                    <td rowspan="8" style="width: 15%; background-color: rgba(0, 0, 0, 0);">
+                                        1. Open 2 more shops in 2 new cities.
+                                        2. Sales will be double, as will all monthly expenses.
+                                        3. Average selling price will reduce by 10% due to competition.
+                                    </td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">100</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td rowspan="2" class="color2" style="background-color: rgb(77, 147, 217);">SALES</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">Selling price per T-shirt</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">600</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">0</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">-10</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">#T-shirts sold per month</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">500</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">100</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">100</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="color3" style="background-color: rgb(241, 169, 131);">VARIABLE COSTS</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">Cost price per T-shirt</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">200</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">-10</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td rowspan="4" class="color4" style="background-color: rgb(142, 217, 115);">FIXED COSTS (MONTHLY)</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Sales Exec Salary</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">25000</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Marketing</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">2500</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Rent</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">30000</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Electricity/Maintenance</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">2500</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">100</td>
+                                </tr>
+                            </tbody>
+                        </table></body></html>

@@ -1,0 +1,83 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Assumption Export</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><meta http-equiv="content-type" content="text/plain; charset=UTF-8"/></head><body><table>
+                            <thead style="background-color: rgba(0, 0, 0, 0);">
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <th style="background-color: rgba(0, 0, 0, 0);"></th>
+                                    <th style="background-color: rgba(0, 0, 0, 0);"></th>
+                                    <th colspan="1" class="head-color1" style="background-color: rgb(251, 226, 213);"> Year 1 Assumptions </th>
+                                    <th colspan="2" class="head-color2" style="background-color: rgb(242, 206, 239);"> Going from Year 1 to Year 2 </th>
+                                    <th colspan="2" class="head-color3" style="background-color: rgb(202, 237, 251);"> Going from Year 2 to Year 3 </th>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <th style="background-color: rgba(0, 0, 0, 0);">TYPE</th>
+                                    <th style="background-color: rgba(0, 0, 0, 0);">DESSCRIPTION</th>
+                                    <th class="head-color1" style="background-color: rgb(251, 226, 213);">Financials, Absolute</th>
+                                    <th class="head-color2" style="background-color: rgb(242, 206, 239);">Business Assumptions</th>
+                                    <th class="head-color2" style="background-color: rgb(242, 206, 239);">Financial Decisions, % change</th>
+                                    <th class="head-color3" style="background-color: rgb(202, 237, 251);">Business Assumptions</th>
+                                    <th class="head-color3" style="background-color: rgb(202, 237, 251);">Financial Decisions, % change</th>
+                                </tr>
+                            </thead>
+                            <tbody style="background-color: rgba(0, 0, 0, 0);">
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="color1" style="background-color: rgb(128, 128, 128);">SETUP COSTS</td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">Enter one-time costs like lab setup, research tools, IP/legal fees, certifications, etc.</td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">0</td>
+                                    <td rowspan="8" style="width: 15%; background-color: rgba(0, 0, 0, 0);">
+                                        Enter key changes as you go from Year 1 to Year 2, e.g., spend 50% more on digital advertising, open 2 more stores. 
+                                        Make corresponding changes in financial assumptions in the next column (Example 0: means no change from Year 1, 10 means 10% more from Year 1, -10 means 10% less from Year 1)
+                                        
+                                    </td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">0</td>
+                                    <td rowspan="8" style="width: 15%; background-color: rgba(0, 0, 0, 0);">
+                                        Enter key changes as you go from Year 2 to Year 3, e.g., hire more people
+                                            Make corresponding changes in financial assumptions in the next column (Example 0: means no change from Year 2, 10 means 10% more from Year 2, -10 means 10% less from Year 2)
+                                    </td>
+                                    <td class="child-color1" style="background-color: rgb(242, 242, 242);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td rowspan="2" class="color2" style="background-color: rgb(77, 147, 217);">SALES</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">Enter proposed selling price per unit of your product/service, e.g., per trial, per subscription, per medicine</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">0</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">0</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">Enter number of units of your product/service you hope to sell per month</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">0</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">0</td>
+                                    <td class="child-color2" style="background-color: rgb(218, 233, 248);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="color3" style="background-color: rgb(241, 169, 131);">VARIABLE COSTS</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">Enter total cost of making each product/service</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">0</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">0</td>
+                                    <td class="child-color3" style="background-color: rgb(251, 226, 213);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td rowspan="4" class="color4" style="background-color: rgb(142, 217, 115);">FIXED COSTS (MONTHLY)</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Enter salaries of key personnel, e.g., tech team, researchers, sales team</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Enter the amount you plan to spend on physical/digital marketing</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Enter infrastructure costs that you may incur, e.g., rent, AWS</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                </tr>
+                                <tr style="background-color: rgba(0, 0, 0, 0);">
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">Enter misc costs, e.g., electricity, travel, software subscriptions</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                    <td class="child-color4" style="background-color: rgb(218, 242, 208);">0</td>
+                                </tr>
+                            </tbody>
+                        </table></body></html>
